@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test for events</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script defer src="app.js"></script>
 </head>
 <body>
-    <h1 id="test1">Test</h1>
-    <h2 id="test2" class="sas" tabindex="0">Test</h2>
-    <h4 id="test3">Test</h4>
+    <h1 id="test1">On click event listener attached via getElementById in a script, app.js</h1>
+    <h2 id="test2" tabindex="0">keypress event listener attached via getElementById in a script, app.js</h2>
+    <div id="test3" class="sas" tabindex="0">keypress event listener attached via querySelectorAll for .sas in a script, app.js</h2>
+    <ul id="test4">
+        <li id="child1">List items with ul parent using event delegation</li>
+        <li id="child2">List items with ul parent using event delegation</li>
+        <li id="child3">List items with ul parent using event delegation</li>
+    </ul>
 </body>
 </html>

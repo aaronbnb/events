@@ -1,21 +1,18 @@
-document.getElementById('test1').addEventListener('click', () => {
-    console.log('testtest');
+document.getElementById('test1').addEventListener('click', (e) => {
+    e.style.color = "black" ? "red" : "black";
 })
 
-var function2 = function() {
-    console.log('trust...');
-}
-
-
 document.getElementById('test2').addEventListener('keypress', function() {
-    console.log('fdas')
+    e.style.color = "black" ? "red" : "black";
 })
 
 document.querySelectorAll('sas').forEach(item => {
     item.addEventListener('click', event => {
-      console.log('fasd')
+      alert("Test");
     })
   })
 
-  var eventElements = document.querySelectorAll("[event='yes']");
-  var countEventElements = eventElements.length;
+
+$('#test4').on("click", "li", function(event){
+    alert();
+})
