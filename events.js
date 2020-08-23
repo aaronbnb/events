@@ -1,5 +1,5 @@
 var items = Array.prototype.slice.call(
-    document.querySelectorAll('*')
+    document.body.querySelectorAll('*')
   ).map(function(element) {
     var listeners = getEventListeners(element);
     return {

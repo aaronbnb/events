@@ -23,7 +23,7 @@ document.getElementById('test2').addEventListener('click', function(e) {
 })
 
 
-document.querySelectorAll('sas').forEach(item => {
+document.querySelectorAll('.sas').forEach(item => {
     item.addEventListener('click', event => {
       alert("Test");
     })
