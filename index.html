@@ -8,13 +8,19 @@
     <script defer src="app.js"></script>
 </head>
 <body>
-    <h1 id="test1">On click event listener attached via getElementById in a script, app.js</h1>
-    <h2 id="test2" tabindex="0">keypress event listener attached via getElementById in a script, app.js</h2>
-    <div id="test3" class="sas" tabindex="0">keypress event listener attached via querySelectorAll for .sas in a script, app.js</h2>
-    <ul id="test4">
-        <li id="child1">List items with ul parent using event delegation</li>
-        <li id="child2">List items with ul parent using event delegation</li>
-        <li id="child3">List items with ul parent using event delegation</li>
+    <div id="test1">Test 1: On click event listener attached via getElementById in a script, app.js</div>
+    <div id="test2" tabindex="0">Test 2: keypress and click event listener attached via getElementById in a script, app.js</div>
+    <div id="test3" class="sas" tabindex="0">Test 3: keypress event listener attached via querySelectorAll for .sas in a script, app.js</h2>
+    <div id="test4" class="sas" tabindex="0">Test 4: keypress event listener attached via querySelectorAll for .sas in a script, app.js</h2>
+    <ul id="test5">
+        <li id="child1">Test 5: List items with ul parent using event delegation and jQuery</li>
+        <li id="child2">Test 5: List items with ul parent using event delegation and jQuery</li>
+        <li id="child3">Test 5: List items with ul parent using event delegation and jQuery</li>
     </ul>
+
+    <button id="test6">Test 6: Button with no extra JS</button>
+    <button id="test7">Test 7: Button target via event listener in JS for click only</button>
+    <button id="test8">Test 8: Button target via event listener in jQuery for click only</button>
+    <div id="test9">Mouseover via JS</div>
 </body>
 </html>
