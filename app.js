@@ -2,7 +2,7 @@ document.getElementById('test1').addEventListener('click', (e) => {
     e.target.style.color = "black" ? "red" : "black";
 })
 
-document.getElementById('test2').addEventListener('keypress', function() {
+document.getElementById('test2').addEventListener('keypress', function(e) {
     e.target.style.color = "black" ? "red" : "black";
 })
 
